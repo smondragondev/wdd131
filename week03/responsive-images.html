@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="A practice of responsive images in HTML">
+    <meta name="author" content="Sergio Mondragon">
+    <link rel="stylesheet" href="styles/responsive-image.css">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 500px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 250px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="The temple of Trujillo" width="250" height="125">
+            </picture>
+        </div>
+    </main>
+</body>
+</html>
