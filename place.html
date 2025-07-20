@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Perú - A place of historical significance, good food, and cultural richness.">
+    <meta name="author" content="Sergio Mondragon">
+    <title>Perú</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hepta+Slab:wght@1..900&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/place.css">
+    <link rel="stylesheet" href="styles/place-large.css">    
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/place.js" defer></script>
+
+</head>
+<body>
+    <header>
+        <h1>Perú</h1>
+    </header>
+    <main>
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 1024px)" srcset="images/hero-large.webp">
+                <source media="(min-width: 768px)" srcset="images/hero-medium.webp">
+                <img src="images/hero-small.webp" alt="Macchu Picchu" width="600" height="700">
+            </picture>
+        </div>
+        <section id="data-section">
+            <h2>Data</h2>
+            <div>
+                <div>
+                    <p>Area:</p>
+                    <p>1,285,215 sq km</p>
+                </div>
+                <div>
+                    <p>Population:</p>
+                    <p>34,352,720</p>
+                </div>
+                <div>
+                    <p>Capital:</p>
+                    <p>Lima</p>
+                </div>
+                <div>
+                    <p>Languages:</p>
+                    <p>Spanish</p>
+                </div>
+                <div>
+                    <p>Currency:</p>
+                    <p>Sol</p>
+                </div>
+                <div>
+                    <p>Time Zone:</p>
+                    <p>UTC-5</p>
+                </div>
+                <div>
+                    <p>Calling Code:</p>
+                    <p>+51</p>
+                </div>
+                <div>
+                    <p>Internet TLD:</p>
+                    <p>.pe</p>
+                </div>
+            </div>
+        </section>
+        <section id="weather-section">
+            <h2>Weather</h2>
+            <img class="weather-icon" src="images/wheater-icon.svg" width="96" alt="Weather Icon">
+            <div>
+                <div>
+                    <p>Temperature:</p>
+                    <p>21°C</p>
+                </div>
+                <div>
+                    <p>Conditions:</p>
+                    <p>Clear</p>
+                </div>
+                <div>
+                    <p>Wind:</p>
+                    <p>14 km/h</p>
+                </div>
+                <div>
+                    <p>Wind Chill:</p>
+                    <p id="wind-chill"></p>
+                </div>                
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>
+            &copy;<span id="currentYear"></span>  🚀  Sergio Mondragon 🚀  Perú
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

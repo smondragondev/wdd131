@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --primary-color: #9e2a2b;
+    --secondary-color: #FCFAF9;
+    --accent1-color: #14110F;
+    --accent2-color: #7E7F83;
+}
+
+body {
+    max-width: 100vw;
+    overflow-x: hidden;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: var(--accent1-color);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: "Hepta Slab", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+/* Header */
+
+header{
+    display: flex;
+    justify-content: center;
+    background-color: var(--primary-color);
+    color: var(--secondary-color)
+}
+header h1 {
+    padding: 1rem;
+}
+
+/* Main */
+
+.hero{
+    border-top: 1rem solid var(--accent2-color);
+}
+
+.hero img {
+  width: 100%;
+  height: auto;
+  border-bottom: 0.5rem solid var(--primary-color);
+}
+
+
+
+section{
+    display: grid;
+    grid-template-rows: 2;
+    justify-content: center;
+    padding: 2rem;
+    gap: 1.5rem;
+}
+
+section h2{
+    font-weight: 700;
+    text-align: center;
+}
+
+section div{
+    display: grid;
+    min-width: 100vh;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+section div div{
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: 1fr 1fr;
+}
+
+section div div :nth-child(1){
+    font-weight: 700;
+    text-align: end;
+}
+
+section img{
+    display: block;
+    margin: auto;
+    width: 96px;
+}
+
+hr{
+    color: var(--accent1-color);
+}
+
+#data-section{
+    border-bottom: 1px solid var(--accent2-color)
+}
+/* Footer */
+
+footer{
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 1.1rem;
+}
+
+#lastModified {
+    padding: 1rem 0 0 0;
+    font-size: 0.9rem;
+    color: var(--secondary-color);
+}

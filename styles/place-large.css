@@ -1,0 +1,58 @@
+@media (min-width:768px) {
+    main{
+        background-color: var(--primary-color);
+    }
+    section {
+        position: absolute;
+        border: 1px solid var(--accent2-color);
+        background-color: var(--secondary-color);
+        opacity: 85%;
+    }
+
+    section>div{
+        margin-top: 2rem;
+    }
+
+    section>h2{
+        position: absolute;
+        background-color: var(--accent1-color);
+        color: var(--secondary-color);
+        padding: 1rem 5rem;
+    }
+
+    #data-section {
+        left: 5rem;
+        top: 10rem;
+        width: 20rem;
+
+    }    
+
+    #data-section h2{        
+        left: 2rem;
+        top: -2rem;        
+    }
+
+    #weather-section{
+        bottom: 10rem;
+        right: 5rem;
+        width: 20rem;
+    }
+
+    #weather-section>h2{
+        left: 2rem;
+        top: -2rem; 
+        width: 90%;
+    }
+
+     #weather-section>h2::after{
+        content: '🌤️';
+    }
+
+    .weather-icon{
+        display: none;
+    }
+
+    footer{
+        padding: 1.5rem;
+    }
+}
