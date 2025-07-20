@@ -59,7 +59,7 @@ header h1 {
 
 section{
     display: grid;
-    grid-template-rows: 2;
+    grid-template-rows: auto 1fr;
     justify-content: center;
     padding: 2rem;
     gap: 1.5rem;
