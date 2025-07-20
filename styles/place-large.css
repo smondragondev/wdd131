@@ -17,7 +17,7 @@
         position: absolute;
         background-color: var(--accent1-color);
         color: var(--secondary-color);
-        padding: 1rem 5rem;
+        padding: 1rem 2rem;
     }
 
     #data-section {
@@ -39,9 +39,9 @@
     }
 
     #weather-section>h2{
-        left: 2rem;
+        right: 1rem;
         top: -2rem; 
-        width: 90%;
+        width: 80%;
     }
 
      #weather-section>h2::after{
