@@ -1,0 +1,119 @@
+/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #A7C957;
+    --secondary-color: #E4572E;
+    --accent-color: #363C16;
+    --background-color: #F0EFF4;
+    --typeface-color: #011627;
+}
+
+body{
+    min-width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--accent2-color);
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    color: var(--accent-color);
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+/* Header */
+
+header{
+    background-color: var(--primary-color);
+}
+
+header h1{
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Main */
+
+main{
+    padding: 2rem;
+}
+
+section{
+    padding: 1rem 1.4rem;
+    border: 1px solid var(--primary-color);
+    margin-bottom: 0.5rem;
+    border-radius: 10px;
+}
+
+section h2{
+    margin-bottom: 0.7rem;
+}
+
+ul {
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+
+.color-sample>span{
+    display: block;
+    width: 15px;
+    height: 15px;
+}
+.color-sample{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.green-span{
+    background-color: var(--primary-color);
+}
+
+.flame-span{
+    background-color: var(--secondary-color);
+}
+
+.drab-span{
+    background-color: var(--accent-color);
+}
+
+.rich-black-span{
+    background-color: var(--typeface-color);
+}
+
+.ghost-white-span{
+    background-color: var(--background-color);
+    border:solid 1px #011627;
+}
+
+figure{
+    padding: 1rem 0;
+}
+
+figure img{
+    display: block;
+    margin: 1rem auto;
+    border: solid 1px var(--typeface-color);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px; 
+
+}
+
+figure figcaption{
+    text-align: center;
+}
