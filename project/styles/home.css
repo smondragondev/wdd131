@@ -1,0 +1,42 @@
+.hero{
+    position: relative;
+}
+
+.hero-message{
+    position: absolute;
+    top: 40px;
+    left: 20px;
+    width: 100%;
+}
+
+.hero-message h2{
+    font-size: xx-large;
+}
+
+.subtitle{
+    font-size: large;
+    color: var(--accent-color);
+}
+
+.hero-description{
+    margin-top: 40px;
+    padding-right: 200px;
+}
+
+.hero-message button{
+    padding: 10px 20px;
+    margin-top: 20px;
+    font-size: large;
+    width: 150px;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--accent2-color);
+    border: solid 1px var(--secondary-color);
+    cursor: pointer;
+}
+
+.hero-message button:hover{
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    border-color: var(--primary-color);
+}

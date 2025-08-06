@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="The purpose of this site is to connect users with 
+                professional services in the Ferreñafe area, 
+                increasing the visibility of local professionals 
+                who offer services such as driving, tutoring, painting, and more.">
+    <meta name="author" content="Sergio Mondragon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/home.css">
+    <title>Ferreñafe Professional Services Center</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+</head>
+<body>
+    <header>
+        <h1>
+            FEPROSER
+        </h1>
+        <button id="menu" aria-label="Open menu"></button>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#" id="home">Home</a>
+                </li>
+                <li>
+                    <a href="#" id="services">Services</a>
+                </li>
+                <li>
+                    <a href="#" id="contact-us">Contact us</a>
+                </li>
+                <li>
+                    <a href="siteplan.html" >Siteplan</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <div class="hero">
+                <picture>
+                    <source media="(min-width: 1024px)" srcset="images/home-hero.webp" height="750">
+                    <img src="images/home-hero-small.webp" alt="A painter doing his job." width="500">
+                </picture>
+                <div class="hero-message">
+                    <h2>Find your professional</h2>
+                    <p class="subtitle">The best workers are here</p>
+                    <p class="hero-description">
+                        In this site you will find the best match for what you need.
+                    </p>
+                    <button>
+                        Find them!
+                    </button>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+         <p>
+            &copy;<span id="currentYear"></span>  🚀  Sergio Mondragon 🚀  Perú
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,131 @@
+/* General CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-color: #A7C957;
+    --secondary-color: #05458a;
+    --accent-color: #363C16;
+    --accent2-color: #dff8d5;
+    --background-color: #F0EFF4;
+    --typeface-color: #011627;
+}
+
+body{
+    min-width: 100vw;
+    overflow-x: hidden;
+    background-color: var(--background-color);
+    font-family: "Noto Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h1,h2,h3,h4,h5,h6{
+    font-family: "Noto Serif", serif;
+    font-style: normal;
+    color: var(--accent-color);
+}
+
+h1 {
+    font-weight: 800;
+}
+
+h2 {
+    font-weight: 700;
+}
+
+a {
+    text-decoration: none;
+    color: var(--accent-color);
+}
+
+/* Header */
+
+header {
+    display: grid;
+    grid-template-rows: auto 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    background-color: var(--primary-color);
+    color: var(--primary-color);
+    /* justify-content: space-between; */
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+
+nav {
+    background-color: var(--primary-color);
+    width: 100%;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav a {
+    display: none;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+
+nav a:hover {
+    text-decoration: overline;
+    color: var(--typeface-color);
+}
+
+header h1 {
+    display: block;
+    font-size: 2.5rem;
+    font-weight: 600;
+    text-align: start;
+    padding: 0.5rem 1rem;
+}
+
+#menu {
+    font-size: 1.5rem;
+    border: 0;
+    background: none;
+    color: #000;
+    position: absolute;
+    right: 15px;
+    top: 17px;
+}
+
+#menu::before {
+    content: "☰";
+}
+
+#menu.open::before {
+    content: "🆇";
+}
+
+.open a {
+    display: block;
+}
+
+/* MAIN */
+
+main {
+    min-height: 80vh;
+}
+
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: var(--primary-color);
+    font-size: 1.1rem;
+}
+
+#lastModified {
+    padding: 1rem 0 0 0;
+    font-size: 0.9rem;
+}
