@@ -19,3 +19,5 @@ Thumbs.db
 
 # macOS backup files
 *.AppleDouble
+
+*.jpg
