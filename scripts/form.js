@@ -51,7 +51,7 @@ function saveReviews(reviewCount){
 
 loadProducts(products)
 
-document.getElementById("post-review").addEventListener('click', ()=>{
+document.querySelector("form").addEventListener('submit', ()=>{
     const reviewCount = countReviews();
     saveReviews(reviewCount);
 })
