@@ -1,0 +1,13 @@
+section{
+    padding: 40px 0;
+}
+
+.thanks{
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    text-align: center;
+}
+.thanks-emoji{
+    text-align: center;
+    font-size: 5rem;
+}

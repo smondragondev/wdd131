@@ -3,20 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The purpose of this site is to connect users with 
-                professional services in the Ferreñafe area, 
-                increasing the visibility of local professionals 
-                who offer services such as driving, tutoring, painting, and more.">
+    <meta name="description" content="Leave us a message to join our family and showcase your talent on our portal.">
     <meta name="author" content="Sergio Mondragon">
     <link rel="stylesheet" href="styles/base.css">
-    <link rel="stylesheet" href="styles/home.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <title>Ferreñafe Professional Services Center</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <script src="scripts/navbar.js" defer></script>
     <script src="scripts/getdates.js" defer></script>
-    <script src="scripts/home.js" defer></script>
+    <script src="scripts/contact.js" defer></script>
 </head>
 <body>
     <header>
@@ -43,6 +40,58 @@
     </header>
     <main>
         <section>
+          <h2>Contact Us!</h2>
+          <p>
+            Do you want to be part of our family? Leave us a message.
+          </p>
+          <form method="get" action="result.html">
+            <p class="help-message">The fields with <span class="required-symbol">*</span> are required to fill.</p>
+            <div>
+                <label for="user-name">Your Name <span class="required-symbol">*</span></label>
+                <input type="text" name="user-name" id="user-name" required>
+            </div>
+            <div>
+                <label for="user-phone">Your Phone <span class="required-symbol">*</span></label>
+                <input type="tel" name="user-phone" id="user-phone" required>
+            </div>
+            <div>
+                <label for="user-email">Your Email <span class="optional-marker">(Optional)</span></label>
+                <input type="email" name="user-email" id="user-email">
+            </div>
+            <div class="services">
+                <p>Which service do you offer? <span class="required-symbol">*</span></p>
+                <div class="service-option">
+                    <input type="radio" name="service" value="electrician" id="electrician">
+                    <label for="electrician">
+                        Electrician
+                    </label>
+                </div>
+                <div class="service-option">
+                    <input type="radio" name="service" id="painter" value="painter">
+                    <label for="painter">
+                        Painter
+                    </label>
+                </div>
+                <div class="service-option">
+                    <input type="radio" name="service" id="taxi-driver" value="taxi-driver">
+                    <label for="taxi-driver">
+                        Taxi Driver
+                    </label>
+                </div>
+                <div class="service-option">
+                    <input type="radio" name="service" id="other" value="other">
+                    <label for="other">
+                        Other
+                    </label>
+                </div>
+            </div>
+            <div>
+                <label for="message">A friendly message <span class="optional-marker">(Optional)</span></label>
+                <textarea name="message" id="message" rows="5"></textarea>
+            </div>
+            
+            <input type="submit" value="Send message" id="send-message">
+            </form>
         </section>
     </main>
     <footer>

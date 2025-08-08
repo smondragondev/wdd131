@@ -28,7 +28,8 @@
     padding-right: 200px;
 }
 
-.hero-message button{
+.hero-message a{
+    display: block;
     padding: 10px 20px;
     margin-top: 20px;
     font-size: large;
@@ -38,9 +39,10 @@
     color: var(--background-color);
     border: solid 1px var(--secondary-color);
     cursor: pointer;
+    text-align: center;
 }
 
-.hero-message button:hover{
+.hero-message a:hover{
     background-color: var(--accent-color);
     color: var(--background-color);
     border-color: var(--accent-color);
