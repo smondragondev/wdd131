@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Professionals available to work through the FEPROSER portal.">
+    <meta name="author" content="Sergio Mondragon">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/professionals.css">
+    <title>Professionals - Feproser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="scripts/navbar.js" defer></script>
+    <script src="scripts/getdates.js" defer></script>
+    <script src="scripts/professionals.js" defer></script>    
+</head>
+<body>
+    <header>
+        <h1>
+            FEPROSER
+        </h1>
+        <button id="menu" aria-label="Open menu"></button>
+        <nav>
+            <ul>
+                <li>
+                    <a href="index.html" id="home">Home</a>
+                </li>
+                <li>
+                    <a href="professionals.html" id="professionals">Professionals</a>
+                </li>
+                <li>
+                    <a href="contact.html" id="contact-us">Contact us</a>
+                </li>
+                <li>
+                    <a href="siteplan.html" >Siteplan</a>
+                </li>
+            </ul>
+        </nav>  
+    </header>
+    <main>
+        <section class="professionals">
+          <h2>Our Professionals</h2>
+          <p>
+            In this portal, we feature people from Ferreñafe who work with passion and high ethics.
+          </p>
+          </div>
+          <div class="services">
+             <h3>Filters</h3>
+             <p>You can filter by clicking on the available services:</p>   
+             <ul id="available-services">
+             </ul>
+          </div>
+          <div class="card-list" id="professionals-list">
+          </div>
+        </section>
+    </main>
+    <footer>
+         <p>
+            &copy;<span id="currentYear"></span>  🚀  Sergio Mondragon 🚀  Perú
+        </p>
+        <p id="lastModified"></p>
+    </footer>
+</body>
+</html>
+

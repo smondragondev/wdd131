@@ -35,7 +35,7 @@
     width: 150px;
     border-radius: 10px;
     background-color: var(--secondary-color);
-    color: var(--accent2-color);
+    color: var(--background-color);
     border: solid 1px var(--secondary-color);
     cursor: pointer;
 }
@@ -46,7 +46,70 @@
     border-color: var(--accent-color);
 }
 
-/* Professionals Section */
-.professionals{
-    padding: 40px 20px;
+.informative-section{
+    text-align: center;
+    padding: 40px 40px;
+}
+
+.informative-section h2{
+    font-size: 2rem;
+}
+
+
+.card-list{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 1rem;
+}
+.card{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+    text-align: center;
+    padding: 20px;
+}
+
+
+.card img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.card button{
+    padding: 10px 20px;
+    font-size: 1rem;
+    width: 60%;
+    border-radius: 10px;
+    background-color: var(--secondary-color);
+    color: var(--background-color);
+    border: solid 1px var(--secondary-color);
+    cursor: pointer;
+}
+
+.card button:hover{
+    background-color: var(--accent-color);
+    color: var(--background-color);
+    border-color: var(--accent-color);
+}
+
+
+#services{
+   border-top: 2px solid var(--accent-color);
+}
+
+#services-list .card{
+    border: solid 0.5px var(--accent-color);
+    border-radius: 5px;
+}
+
+#services-list .card:hover{
+    transform: scale(1.05) ;
+    box-shadow: 0 0 15px var(--secondary-color);
 }

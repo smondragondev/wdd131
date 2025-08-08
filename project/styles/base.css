@@ -68,15 +68,15 @@ nav ul {
 
 nav a {
     display: none;
-    color: white;
+    color: var(--typeface-color);
     text-align: center;
     padding: 1rem;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 nav a:hover {
     text-decoration: overline;
-    color: var(--typeface-color);
+    color: var(--secondary-color);
 }
 
 header h1 {
