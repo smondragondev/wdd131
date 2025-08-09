@@ -37,19 +37,19 @@ services = [
     },
 ]
 
-function createValueCard(proffesionalValue){
+function createValueCard(profesionalValue){
     const valueListDiv = document.getElementById("value-list")
     const valueCardDiv = document.createElement("div");
     valueCardDiv.classList.add("card")
     const svgIcon = document.createElement("img");
-    svgIcon.setAttribute("alt",`${proffesionalValue.name} Icon`);
-    svgIcon.setAttribute("src",proffesionalValue.svgIcon);
+    svgIcon.setAttribute("alt",`${profesionalValue.name} Icon`);
+    svgIcon.setAttribute("src",profesionalValue.svgIcon);
     svgIcon.setAttribute("width",96);
     svgIcon.setAttribute("loading","lazy");
     const title = document.createElement("h3");
-    title.textContent = proffesionalValue.name;
+    title.textContent = profesionalValue.name;
     const description = document.createElement("p");
-    description.textContent = proffesionalValue.description;
+    description.textContent = profesionalValue.description;
     valueCardDiv.appendChild(svgIcon);
     valueCardDiv.appendChild(title);
     valueCardDiv.appendChild(description);

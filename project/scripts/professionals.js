@@ -78,7 +78,7 @@ function createProfessionalCard(professional) {
     const paragraph = document.createElement("p");
     paragraph.textContent = professional.description;
     const actionButton = document.createElement("a");
-    actionButton.textContent = "Contact him";
+    actionButton.textContent = "Contact them";
     actionButton.href = `tel:${professional.phone}`
     actionButton.classList.add("professional-button")
     // Div for phone
@@ -88,6 +88,8 @@ function createProfessionalCard(professional) {
     phoneP.textContent = professional.phone;
     const svgIcon = document.createElement("img");
     svgIcon.src = "images/phone-icon.svg";
+    svgIcon.setAttribute("alt", "Phone icon");
+    svgIcon.setAttribute("width", "24");
     phoneDiv.appendChild(phoneP);
     phoneDiv.appendChild(svgIcon);
 
