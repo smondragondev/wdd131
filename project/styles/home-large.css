@@ -1,8 +1,6 @@
 @media (min-width: 1200px) {
 
     .hero {
-        display: flex;
-        flex-direction: row-reverse;
         padding: 120px 80px;
         height: 90vh;
     }
