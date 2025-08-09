@@ -99,3 +99,7 @@ input[type="submit"]:hover{
     background-image: linear-gradient(to left bottom, #051937, #06234a, #072e5f, #063974, #05458a);
 }
 
+/* Image */
+img{
+    display: none;
+}

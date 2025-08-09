@@ -1,0 +1,66 @@
+@media (min-width: 1200px) {
+    p {
+        font-size: 1.4rem;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+    .professionals {
+        padding: 120px 80px;
+        text-align: center;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 4rem 1rem;
+    }
+
+    .professionals h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    .title {
+        grid-column: 1 / -1;
+    }
+
+    .services {
+        grid-column : 1 / 2;
+    }
+
+    .services h3{
+        font-size: 2rem;
+    }
+
+    #available-services{
+        margin-top: 2rem;
+    }
+
+    .card-list{
+        grid-column: 2 / -1;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card{
+        width: 40%;
+    }
+
+    .card h3{
+        font-size: 2rem;
+    }
+
+
+    .card>img{
+        display: block;
+        margin: 0 auto;
+        border-radius: 100%;
+        border: 1px solid var(--primary-color);
+        background-color: var(--primary-color);
+    }
+
+    .professional-button{
+        font-size: 1.4rem;
+        width: 60%;
+    }
+
+}

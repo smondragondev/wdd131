@@ -48,7 +48,7 @@ professionals = [
         name: "Eliberto Sanchez",
         phone: "+51 945123422",
         service: "Taxi Drivers",
-        description: "Taxi driver with 30 years of experience. Reliable, courteous, and familiar with all city areas. Ensures timely arrivals and a pleasant travel experience for every passenger."
+        description: "Taxi driver with 30 years of experience. Reliable, courteous, and familiar with all city areas. Ensures timely arrivals and a pleasant travel experience for every passenger. Always professional."
     },
 ]
 

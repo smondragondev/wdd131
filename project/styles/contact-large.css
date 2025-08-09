@@ -1,0 +1,54 @@
+@media (min-width: 1200px) {
+    p {
+        font-size: 1.4rem;
+    }
+
+    section {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        padding: 120px 80px;
+        gap: 4rem 4rem;
+    }
+
+    section h2 {
+        font-size: 3rem;
+        margin-bottom: 1rem;
+    }
+
+    section p {
+        margin-bottom: 1.4rem;
+        margin-bottom: 2rem;
+    }
+
+    .title {
+        grid-column: 1 / -1;
+    }
+
+    /* Form */
+    form {
+        grid-column: 1 / 2;
+        font-size: 1.4rem;
+        max-width: 600px;
+    }
+
+    .help-message {
+        font-size: 1.2rem;
+        font-weight: 700;
+    }
+
+    input[type="submit"] {
+        padding: .8rem;
+        font-size: 1.4rem;
+    }
+
+
+    /* Image */
+    img {
+        display: block;
+        margin: auto;
+    }
+
+    .img-container {
+        grid-column: 2 / -1;
+    }
+}

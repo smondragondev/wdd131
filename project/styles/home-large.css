@@ -1,0 +1,80 @@
+@media (min-width: 1200px) {
+
+    .hero {
+        display: flex;
+        flex-direction: row-reverse;
+        padding: 120px 80px;
+        height: 90vh;
+    }
+
+    .hero img {
+        width: 700px;
+        border-radius: 10px;
+        box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    }
+
+    .hero-message {
+        position: relative;
+        top: 0;
+        left: 0;
+        width: 100%;
+    }
+
+    .hero-message h2 {
+        font-size: 3rem;
+    }
+
+    .subtitle {
+        font-size: 2rem;
+    }
+
+    .hero-description {
+        font-size: 1.4rem;
+    }
+
+    .hero-message a {
+        font-size: 1.4rem;
+        width: 200px;
+    }
+
+    .informative-section {
+        border-top: 2px solid var(--accent-color);
+        height: 100vh;
+        padding: 120px 80px;
+    }
+
+    .informative-section h2 {
+        font-size: 3rem;
+    }
+
+    .card-list {
+        margin-top: 160px;
+        flex-direction: row;
+    }
+
+    .card h3 {
+        font-size: 2rem;
+    }
+
+    .card p {
+        font-size: 1.4rem;
+    }
+
+    #value-list .card img {
+        width: 124px;
+    }
+
+    #services {
+        padding: 120px 80px;
+    }
+
+    .card img {
+        width: 400px;
+    }
+
+    .card button {
+        padding: 15px 10px;
+        width: 50%;
+        font-size: 1.4rem;
+    }
+}
