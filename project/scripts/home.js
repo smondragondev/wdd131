@@ -45,6 +45,7 @@ function createValueCard(proffesionalValue){
     svgIcon.setAttribute("alt",`${proffesionalValue.name} Icon`);
     svgIcon.setAttribute("src",proffesionalValue.svgIcon);
     svgIcon.setAttribute("width",96);
+    svgIcon.setAttribute("loading","lazy");
     const title = document.createElement("h3");
     title.textContent = proffesionalValue.name;
     const description = document.createElement("p");
