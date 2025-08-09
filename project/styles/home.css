@@ -1,7 +1,5 @@
 .hero{
     position: relative;
-    display: flex;
-    flex-direction: row-reverse;
 }
 
 .hero img{
